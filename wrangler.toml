@@ -1,0 +1,12 @@
+name = "purpose-coach-website"
+compatibility_date = "2024-01-01"
+
+# D1 Database binding
+[[d1_databases]]
+binding = "DB"
+database_name = "purpose-coach-db"
+database_id = "2a61ade2-9614-4bb5-b2fc-bf60948b863c"
+
+# Environment variables for development
+[vars]
+ENVIRONMENT = "development"
