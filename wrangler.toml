@@ -1,6 +1,5 @@
 name = "purpose-coach-website"
 compatibility_date = "2024-01-01"
-account_id = "87cae644f95c1b664e994a1733c4e8b3"
 pages_build_output_dir = ".next"
 
 # D1 Database binding
