@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 
 export default function Navigation() {
@@ -21,8 +22,14 @@ export default function Navigation() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 bg-ocean-blue rounded-full flex items-center justify-center font-bold text-lg text-white group-hover:scale-110 transition-transform">
-              JJ
+            <div className="relative w-12 h-12 group-hover:scale-105 transition-transform">
+              <Image
+                src="/PC logo.png"
+                alt="Purpose Coach Logo"
+                fill
+                className="object-contain"
+                priority
+              />
             </div>
             <div className="hidden md:block">
               <div className="font-bold text-lg text-ocean-blue">Just Jason</div>
