@@ -53,9 +53,9 @@ export default function QuizPopup() {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.9, y: 20 }}
             transition={{ type: 'spring', duration: 0.5 }}
-            className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[101] w-[90%] max-w-lg"
+            className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[101] w-[90%] max-w-lg max-h-[90vh] overflow-y-auto"
           >
-            <div className="bg-gradient-to-br from-ocean-blue via-ocean-blue-light to-teal text-white rounded-2xl shadow-2xl overflow-hidden">
+            <div className="bg-gradient-to-br from-ocean-blue via-ocean-blue-light to-teal text-white rounded-2xl shadow-2xl overflow-hidden relative">
               {/* Close button */}
               <button
                 onClick={handleClose}

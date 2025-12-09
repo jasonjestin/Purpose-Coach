@@ -32,8 +32,8 @@ export default function Navigation() {
               />
             </div>
             <div className="hidden md:block">
-              <div className="font-bold text-lg text-ocean-blue">Just Jason</div>
-              <div className="text-xs text-warm-grey">The Purpose Coach</div>
+              <div className="font-bold text-xl text-ocean-blue">Purpose Coach</div>
+              <div className="text-xs text-warm-grey">Your Journey to Alignment</div>
             </div>
           </Link>
 
