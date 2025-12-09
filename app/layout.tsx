@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter, Caveat } from 'next/font/google'
 import './globals.css'
+import QuizPopup from '@/components/QuizPopup'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -15,8 +16,13 @@ const caveat = Caveat({
 })
 
 export const metadata: Metadata = {
-  title: 'Purpose Coach - Transform Your Life',
-  description: 'Access exclusive coaching videos and workbooks to discover and live your purpose',
+  title: 'Purpose Coach - Your Journey to Alignment',
+  description: 'Transform from external success to internal fulfillment. Discover your purpose and create a life that truly aligns with who you are.',
+  icons: {
+    icon: '/PC logo.png',
+    shortcut: '/PC logo.png',
+    apple: '/PC logo.png',
+  },
 }
 
 export default function RootLayout({
@@ -26,7 +32,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${caveat.variable} font-sans`}>{children}</body>
+      <body className={`${inter.variable} ${caveat.variable} font-sans`}>
+        {children}
+        <QuizPopup />
+      </body>
     </html>
   )
 }

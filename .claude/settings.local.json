@@ -17,7 +17,8 @@
       "Bash(git remote add:*)",
       "Bash(git branch:*)",
       "Bash(git push:*)",
-      "Bash(npx @cloudflare/next-on-pages)"
+      "Bash(npx @cloudflare/next-on-pages)",
+      "WebFetch(domain:www.modernpeople.com.au)"
     ],
     "deny": [],
     "ask": []

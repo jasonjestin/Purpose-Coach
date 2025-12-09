@@ -9,50 +9,60 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // PRD Primary Colors
+        // Journey-Inspired Rich Color Palette
         'ocean-blue': {
-          DEFAULT: '#1B4965',
-          light: '#2A5F7E',
-          dark: '#0F2E3D',
+          DEFAULT: '#0D3B66', // Deep ocean blue - mysterious depths
+          light: '#1E5A8E',   // Mediterranean waters
+          dark: '#051F34',    // Midnight ocean
         },
         'terracotta': {
-          DEFAULT: '#D4704E',
-          light: '#E08968',
-          dark: '#B85A3D',
+          DEFAULT: '#C1666B', // Rich desert clay
+          light: '#D4878C',   // Sunset terra
+          dark: '#A34E52',    // Deep earth
         },
-        // PRD Secondary Colors
         'sage': {
-          DEFAULT: '#8B9D83',
-          light: '#A4B59D',
-          dark: '#6D7D67',
+          DEFAULT: '#778D74', // Lush mountain sage
+          light: '#95A893',   // Morning meadow
+          dark: '#5C6E5A',    // Forest shadow
         },
         'amber': {
-          DEFAULT: '#E6A85C',
-          light: '#EDB876',
-          dark: '#D89145',
+          DEFAULT: '#D4A574', // Warm golden hour
+          light: '#E3BC92',   // Sun-kissed sand
+          dark: '#B8884F',    // Rich amber
         },
-        // PRD Accent Colors
         'coral': {
-          DEFAULT: '#FF6B6B',
-          light: '#FF8585',
-          dark: '#E85555',
+          DEFAULT: '#E96B56', // Vibrant sunset coral
+          light: '#F2887A',   // Soft coral glow
+          dark: '#D14E3C',    // Deep coral reef
         },
         'purple': {
-          DEFAULT: '#6B4E71',
-          light: '#856589',
-          dark: '#533C58',
+          DEFAULT: '#7B6D8D', // Twilight lavender
+          light: '#9A8DA8',   // Misty purple
+          dark: '#5E5270',    // Deep plum
         },
-        // PRD Neutrals
-        'charcoal': '#2D3142',
-        'warm-grey': '#8B8B8B',
-        'cream': '#F8F5F1',
-        // Quiz Status Colors
-        'status-red': '#E63946',
-        'status-yellow': '#F4A261',
-        'status-green': '#2A9D8F',
-        // Legacy colors (for gradual migration)
+        'teal': {
+          DEFAULT: '#4ECDC4', // Tropical waters
+          light: '#6FD9D2',   // Lagoon shimmer
+          dark: '#3AA39C',    // Deep teal
+        },
+        'sunset-orange': {
+          DEFAULT: '#F38D68', // Rich sunset
+          light: '#F7A98A',   // Peachy glow
+          dark: '#E0734D',    // Deep orange
+        },
+        // Neutrals - Rich and Warm
+        'charcoal': '#2C3639',      // Deep charcoal
+        'warm-grey': '#A0937D',     // Warm stone
+        'sand': '#F4F1E8',          // Warm sand
+        'cream': '#FFFCF7',         // Creamy white
+        'earth-brown': '#6B4F3C',   // Rich earth
+        // Status Colors
+        'status-red': '#D64550',
+        'status-yellow': '#E8A547',
+        'status-green': '#4A9B8E',
+        // Legacy colors (backwards compatibility)
         'navy-deep': '#0A2E4D',
-        'gold': '#F5A623',
+        'gold': '#D4A574',
       },
       fontFamily: {
         'script': ['var(--font-caveat)', 'cursive'],
